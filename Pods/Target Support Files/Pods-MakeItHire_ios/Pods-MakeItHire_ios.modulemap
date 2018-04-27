@@ -1,0 +1,6 @@
+framework module Pods_MakeItHire_ios {
+  umbrella header "Pods-MakeItHire_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
