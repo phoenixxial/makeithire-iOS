@@ -107,6 +107,7 @@ struct User: Decodable {
     let University: NSInteger?
     let Bio: String?
     let Projects: String?
+    let idUser: NSInteger?
   //  let isAdmin: NSInteger?
     
     

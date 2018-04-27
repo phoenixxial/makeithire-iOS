@@ -85,9 +85,11 @@ class ChatterController: UITableViewController {
             navi.idChat = i
         }
         
-        if let m = chatters[indexPath.row].StudentID {
+       if let m = chatters[indexPath.row].StudentID {
             navi.myId = m
         }
+        
+     //   guard let id = APIManager.user.idUser else { return }
         
         self.navigationController?.pushViewController(navi, animated: true)
         

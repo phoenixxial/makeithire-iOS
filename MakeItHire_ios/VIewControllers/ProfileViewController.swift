@@ -46,6 +46,11 @@ class ProfileViewController: UIViewController {
             }
             if let n = APIManager.user.LastName {
                 let attributedText = NSMutableAttributedString(string: "Name: ", attributes: strokeTextAttributes)
+                
+                
+                if let f = APIManager.user.FirstName {
+                       attributedText.append(NSAttributedString(string: f+" ", attributes: additionalTextAttributes))
+                }
                  attributedText.append(NSAttributedString(string: n, attributes: additionalTextAttributes))
                 name.attributedText = attributedText
             }
