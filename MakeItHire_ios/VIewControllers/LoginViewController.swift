@@ -46,8 +46,6 @@ class LoginViewController: UIViewController {
                     print(APIManager.token)
                     APIManager.user = response?.user
                     
-                    print(APIManager.user.idUser)
-                    print(APIManager.user.LastName)
                     
                     self.present(CustomTabBarViewController(),animated: true,completion: nil)
                     
