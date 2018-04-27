@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.7.1)
+  - LBTAComponents (1.0.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - LBTAComponents
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - LBTAComponents
+
+SPEC CHECKSUMS:
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  LBTAComponents: c4c8863e0ef6715e378300db148b96a09df656f7
+
+PODFILE CHECKSUM: 653388fa14e421175c1caa03b8a36201db96218a
+
+COCOAPODS: 1.5.0

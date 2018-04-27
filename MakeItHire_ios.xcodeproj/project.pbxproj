@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0425FCAF2090D16700BB368C /* UIofProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425FCAE2090D16700BB368C /* UIofProfile.swift */; };
+		04492943207F15B7001BFF37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04492942207F15B7001BFF37 /* AppDelegate.swift */; };
+		0449294A207F15B9001BFF37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04492949207F15B9001BFF37 /* Assets.xcassets */; };
+		0449294D207F15B9001BFF37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0449294B207F15B9001BFF37 /* LaunchScreen.storyboard */; };
+		04492955207F165F001BFF37 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04492954207F165F001BFF37 /* LoginViewController.swift */; };
+		04645F5C20924F88004E625D /* ChatterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645F5B20924F88004E625D /* ChatterController.swift */; };
+		04645F5E209256FD004E625D /* ChatAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645F5D209256FD004E625D /* ChatAPIManager.swift */; };
+		04645F6020926DD0004E625D /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645F5F20926DD0004E625D /* ChatController.swift */; };
+		04C304592082FB350054383F /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C304582082FB350054383F /* CustomTabBarViewController.swift */; };
+		04C3045B2082FDD50054383F /* ListingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3045A2082FDD50054383F /* ListingsTableViewController.swift */; };
+		04C3045D2082FFF90054383F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3045C2082FFF90054383F /* ProfileViewController.swift */; };
+		04C3045F20831E290054383F /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3045E20831E290054383F /* Job.swift */; };
+		04E710F42081789A00AA5A0D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E710F32081789A00AA5A0D /* User.swift */; };
+		04E710F62081930500AA5A0D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E710F52081930500AA5A0D /* APIManager.swift */; };
+		598D33D56810261A12F71D54 /* Pods_MakeItHire_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0177D5578CFBB52AEA2CC3 /* Pods_MakeItHire_ios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0425FCAE2090D16700BB368C /* UIofProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIofProfile.swift; sourceTree = "<group>"; };
+		0449293F207F15B7001BFF37 /* MakeItHire_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeItHire_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04492942207F15B7001BFF37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04492949207F15B9001BFF37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0449294C207F15B9001BFF37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0449294E207F15B9001BFF37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04492954207F165F001BFF37 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04645F5B20924F88004E625D /* ChatterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterController.swift; sourceTree = "<group>"; };
+		04645F5D209256FD004E625D /* ChatAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAPIManager.swift; sourceTree = "<group>"; };
+		04645F5F20926DD0004E625D /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		04C304582082FB350054383F /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		04C3045A2082FDD50054383F /* ListingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsTableViewController.swift; sourceTree = "<group>"; };
+		04C3045C2082FFF90054383F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		04C3045E20831E290054383F /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		04E710F32081789A00AA5A0D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		04E710F52081930500AA5A0D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		34B4CE391BE7660684D16773 /* Pods-MakeItHire_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeItHire_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeItHire_ios/Pods-MakeItHire_ios.release.xcconfig"; sourceTree = "<group>"; };
+		7B15123D9E5DBBB7D2C96BE9 /* Pods-MakeItHire_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeItHire_ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeItHire_ios/Pods-MakeItHire_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		EA0177D5578CFBB52AEA2CC3 /* Pods_MakeItHire_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeItHire_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0449293C207F15B7001BFF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598D33D56810261A12F71D54 /* Pods_MakeItHire_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04492936207F15B7001BFF37 = {
+			isa = PBXGroup;
+			children = (
+				04492941207F15B7001BFF37 /* MakeItHire_ios */,
+				04492940207F15B7001BFF37 /* Products */,
+				770951593FA97A5CEC0AF7A7 /* Pods */,
+				F63BFE6E614E5C418EECAAEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04492940207F15B7001BFF37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0449293F207F15B7001BFF37 /* MakeItHire_ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04492941207F15B7001BFF37 /* MakeItHire_ios */ = {
+			isa = PBXGroup;
+			children = (
+				04C30462208326B80054383F /* Network */,
+				04C304612083260B0054383F /* VIewControllers */,
+				04C30460208325D00054383F /* Models */,
+				04492942207F15B7001BFF37 /* AppDelegate.swift */,
+				04492949207F15B9001BFF37 /* Assets.xcassets */,
+				0449294B207F15B9001BFF37 /* LaunchScreen.storyboard */,
+				0449294E207F15B9001BFF37 /* Info.plist */,
+			);
+			path = MakeItHire_ios;
+			sourceTree = "<group>";
+		};
+		04C30460208325D00054383F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04C3045E20831E290054383F /* Job.swift */,
+				04E710F32081789A00AA5A0D /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04C304612083260B0054383F /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04492954207F165F001BFF37 /* LoginViewController.swift */,
+				04C304582082FB350054383F /* CustomTabBarViewController.swift */,
+				04645F5B20924F88004E625D /* ChatterController.swift */,
+				04645F5F20926DD0004E625D /* ChatController.swift */,
+				04C3045A2082FDD50054383F /* ListingsTableViewController.swift */,
+				04C3045C2082FFF90054383F /* ProfileViewController.swift */,
+				0425FCAE2090D16700BB368C /* UIofProfile.swift */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		04C30462208326B80054383F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				04E710F52081930500AA5A0D /* APIManager.swift */,
+				04645F5D209256FD004E625D /* ChatAPIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		770951593FA97A5CEC0AF7A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B15123D9E5DBBB7D2C96BE9 /* Pods-MakeItHire_ios.debug.xcconfig */,
+				34B4CE391BE7660684D16773 /* Pods-MakeItHire_ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F63BFE6E614E5C418EECAAEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0177D5578CFBB52AEA2CC3 /* Pods_MakeItHire_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0449293E207F15B7001BFF37 /* MakeItHire_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04492951207F15B9001BFF37 /* Build configuration list for PBXNativeTarget "MakeItHire_ios" */;
+			buildPhases = (
+				2916C2DFC049FAD084A664CD /* [CP] Check Pods Manifest.lock */,
+				0449293B207F15B7001BFF37 /* Sources */,
+				0449293C207F15B7001BFF37 /* Frameworks */,
+				0449293D207F15B7001BFF37 /* Resources */,
+				A3D972A90E4A910855EC17AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeItHire_ios;
+			productName = MakeItHire_ios;
+			productReference = 0449293F207F15B7001BFF37 /* MakeItHire_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04492937207F15B7001BFF37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Nik Suprunov";
+				TargetAttributes = {
+					0449293E207F15B7001BFF37 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 0449293A207F15B7001BFF37 /* Build configuration list for PBXProject "MakeItHire_ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04492936207F15B7001BFF37;
+			productRefGroup = 04492940207F15B7001BFF37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0449293E207F15B7001BFF37 /* MakeItHire_ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0449293D207F15B7001BFF37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0449294D207F15B9001BFF37 /* LaunchScreen.storyboard in Resources */,
+				0449294A207F15B9001BFF37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2916C2DFC049FAD084A664CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MakeItHire_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D972A90E4A910855EC17AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MakeItHire_ios/Pods-MakeItHire_ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakeItHire_ios/Pods-MakeItHire_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0449293B207F15B7001BFF37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E710F62081930500AA5A0D /* APIManager.swift in Sources */,
+				04C304592082FB350054383F /* CustomTabBarViewController.swift in Sources */,
+				04645F5E209256FD004E625D /* ChatAPIManager.swift in Sources */,
+				04C3045B2082FDD50054383F /* ListingsTableViewController.swift in Sources */,
+				04492955207F165F001BFF37 /* LoginViewController.swift in Sources */,
+				04C3045D2082FFF90054383F /* ProfileViewController.swift in Sources */,
+				04492943207F15B7001BFF37 /* AppDelegate.swift in Sources */,
+				0425FCAF2090D16700BB368C /* UIofProfile.swift in Sources */,
+				04645F5C20924F88004E625D /* ChatterController.swift in Sources */,
+				04E710F42081789A00AA5A0D /* User.swift in Sources */,
+				04C3045F20831E290054383F /* Job.swift in Sources */,
+				04645F6020926DD0004E625D /* ChatController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0449294B207F15B9001BFF37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0449294C207F15B9001BFF37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0449294F207F15B9001BFF37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04492950207F15B9001BFF37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04492952207F15B9001BFF37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B15123D9E5DBBB7D2C96BE9 /* Pods-MakeItHire_ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NA37JZS6G;
+				INFOPLIST_FILE = MakeItHire_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "suprunov.nik.MakeItHire-iosNik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04492953207F15B9001BFF37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B4CE391BE7660684D16773 /* Pods-MakeItHire_ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NA37JZS6G;
+				INFOPLIST_FILE = MakeItHire_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "suprunov.nik.MakeItHire-iosNik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0449293A207F15B7001BFF37 /* Build configuration list for PBXProject "MakeItHire_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0449294F207F15B9001BFF37 /* Debug */,
+				04492950207F15B9001BFF37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04492951207F15B9001BFF37 /* Build configuration list for PBXNativeTarget "MakeItHire_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04492952207F15B9001BFF37 /* Debug */,
+				04492953207F15B9001BFF37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04492937207F15B7001BFF37 /* Project object */;
+}
